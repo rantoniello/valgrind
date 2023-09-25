@@ -2125,7 +2125,7 @@ struct _IRExpr {
            guest memory transactions from the instrumenters
 
          * it must not assume that arguments are being evaluated in a
-           particular order. The oder of evaluation is unspecified.
+           particular order. The order of evaluation is unspecified.
 
          This is restrictive, but makes the semantics clean, and does
          not interfere with IR optimisation.
